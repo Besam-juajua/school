@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<swiper class='banner' autoplay='true'>
+  <swiper-item wx:for='{{swiperList}}' wx:key='item'>
+    <image src='{{item}}' class='banner-img'></image>
+  </swiper-item>
+</swiper>
+<view class='home-item-list'>
+  <view class='home-item'>
+    <image src='https://dummyimage.com/29x29/000/fff'></image>
+    <text>选课</text>
+  </view>
+  <view class='home-item'>
+    <image src='https://dummyimage.com/29x29/000/fff'></image>
+    <text>课程</text>
+  </view>
+  <view class='home-item'>
+    <image src='https://dummyimage.com/29x29/000/fff'></image>
+    <text>成绩</text>
+  </view>
+  <view class='home-item'>
+    <image src='https://dummyimage.com/29x29/000/fff'></image>
+    <text>图书推荐</text>
+  </view>
+</view>

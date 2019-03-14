@@ -1,0 +1,12 @@
+<!--pages/noteBook/noteBook.wxml-->
+<view class='note-title'>我的笔记</view>
+<view class='note-list' wx:for='{{noteList}}' wx:key=''>
+  <view class='note-item note-item-odd' wx:if='{{index%2==0}}'>
+    <p>{{item}}</p>
+    <button>编辑</button>
+  </view>
+  <view class='note-item note-item-even' wx:else='{{index%2==1}}'>
+    <p>{{item}}</p>
+    <button>编辑</button>
+  </view>
+</view>

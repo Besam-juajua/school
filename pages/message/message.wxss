@@ -1,0 +1,20 @@
+/* pages/message/message.wxss */
+.message-title{
+  width: 748rpx;
+  height: 100rpx;
+  border: 2rpx solid #BBBBBB;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  color: #101010;
+  margin-bottom: 22rpx;
+}
+.message-item{
+  width: 712rpx;
+  height: 180rpx;
+  margin: 12rpx 18rpx 12rpx 20rpx;
+  border: 2rpx solid #BBBBBB;
+  box-sizing: border-box;
+  background: #EBECEC;
+}

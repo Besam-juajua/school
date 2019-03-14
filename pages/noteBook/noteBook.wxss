@@ -1,0 +1,46 @@
+/* pages/noteBook/noteBook.wxss */
+.note-title{
+  width: 750rpx;
+  height: 80rpx;
+  border: 2rpx solid #BBBBBB;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 28rpx
+}
+.note-item{
+  width: 320rpx;
+  height: 400rpx;
+  background: #EBECEC;
+  border: 2rpx solid #BBBBBB;
+  position: relative;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.note-item-odd{
+  margin: 20rpx 0 0 24rpx;
+  float: left;
+}
+.note-item-even{
+  margin: 20rpx 30rpx 0 0rpx;
+  float: right;
+}
+.note-item p{
+  font-size: 28rpx;
+  color: #969999;
+}
+.note-item button{
+  width: 100rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 20rpx;
+  bottom: 20rpx;
+  font-size: 24rpx;
+  font-family: Arial;
+  line-height: 40rpx;
+  padding: 0;
+  text-align: center;
+  color: white;
+  background: #259B24;
+  border: 2rpx solid #BBBBBB;
+}

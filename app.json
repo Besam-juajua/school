@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/selectCourse/selectCourse",
+    "pages/syllabus/syllabus",
+    "pages/courseContent/courseContent",
+    "pages/score/score",
+    "pages/bookRecommend/bookRecommend",
+    "pages/noteBook/noteBook",
+    "pages/message/message",
+    "pages/personal/personal",
+    "pages/personalData/personalData",
+    "pages/identification/identification"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页"
+    },{
+      "pagePath": "pages/noteBook/noteBook",
+      "text": "笔记"
+    },{
+      "pagePath": "pages/message/message",
+      "text": "消息"
+    },{
+      "pagePath": "pages/personal/personal",
+      "text": "我的"
+    }]
+  }
+}

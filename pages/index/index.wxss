@@ -1,0 +1,39 @@
+page{
+  /* font-family: PingFangSC-regular; */
+}
+.banner{
+  width: 714rpx;
+  height: 378rpx;
+  margin: 18rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.banner-img{
+  width: 100%;
+  height: 100%;
+}
+.home-item-list{
+  width: 736rpx;
+  height: 148rpx;
+  margin: 16rpx 8rpx 0rpx 6rpx;
+  background: #FBFAFA;
+  border-radius: 10rpx;
+  border: 2rpx solid #BBBBBB;
+}
+.home-item{
+  width: 25%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+.home-item image{
+  display: block;
+  width: 58rpx;
+  height: 58rpx;
+  margin: 28rpx auto 0rpx;
+}
+.home-item text{
+  /* font-family: 'PingFangSC-regular'; */
+  font-size: 28rpx;
+  color: #8BC34A;
+}
