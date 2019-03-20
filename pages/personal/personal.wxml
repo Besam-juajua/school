@@ -1,2 +1,10 @@
 <!--pages/personal/personal.wxml-->
-<text>pages/personal/personal.wxml</text>
+<view class='profile'>
+  <image src='{{profile.img}}'></image>
+  <text class='nickName'>{{profile.nickName}}</text>
+</view>
+<view class='identify-item' wx:for='{{identifyList}}' wx:key='{{index}}' data-index='{{index}}' bindtap='to'>
+  <image src='{{item.icon1}}' class='icon1'></image>
+  <text>{{item.text}}</text>
+  <image src='../../images/forward.png' class='icon2'></image>
+</view>

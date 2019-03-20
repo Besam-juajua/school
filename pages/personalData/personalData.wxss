@@ -1,1 +1,53 @@
-/* pages/personalData/personalData.wxss */
+.profile{
+  width: 712rpx;
+  height: 400rpx;
+  background: #FF9800;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  margin-bottom: 26rpx;
+  text-align: center;
+  padding-top: 40rpx;
+}
+.profile image{
+  display: block;
+  width: 232rpx;
+  height: 232rpx;
+  border-radius: 50%;
+  margin: 0rpx auto 28rpx;
+  border: 2rpx solid #BBBBBB;
+  box-sizing: border-box;
+}
+.profile text{
+  font-size: 28rpx;
+  line-height: 20rpx;
+  color: #101010;
+}
+.data-list{
+  padding: 0 18rpx 40rpx 40rpx;
+  margin-top: 26rpx;
+  border-top: 2rpx solid #BBBBBB;
+}
+.data-item{
+  width: 100%;
+  border-bottom: 2rpx solid #BBBBBB;
+  font-size: 28rpx;
+  padding: 26rpx 0;
+}
+.data-item:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.data-item image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 24rpx;
+  float: left;
+}
+.data-item label{
+  float: left;
+}
+.data-item text{
+  float: right;
+  color: #969999;
+}

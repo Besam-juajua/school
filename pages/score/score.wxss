@@ -1,1 +1,54 @@
-/* pages/score/score.wxss */
+.select-box{
+  width: 732rpx;
+  height: 80rpx;
+  border: 2rpx solid #BBBBBB;
+  box-sizing: border-box;
+  margin: 0 10rpx 24rpx 8rpx;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  line-height: 80rpx;
+}
+.select-box label{
+  margin-left: 24rpx;
+}
+.select-box text{
+  color: #969999;
+  float: right;
+}
+.select-box image{
+  width: 48rpx;
+  height: 48rpx;
+  margin-top: 16rpx;
+  margin-right: 12rpx;
+  float: right;
+}
+.select-list{
+  margin: -24rpx 16rpx 24rpx;
+  border: 1rpx solid #BBBBBB;
+  padding: 0 30rpx 0 24rpx;
+  font-size: 28rpx;
+}
+.select-item{
+  height: 82rpx;
+  width: 100%;
+  border-bottom: 2rpx solid #BBBBBB;
+  line-height: 82rpx;
+}
+.select-item:last-of-type{
+  border-bottom: none;
+}
+.course-item{
+  width: 732rpx;
+  height: 92rpx;
+  border: 2rpx solid #BBBBBB;
+  margin: 0 10rpx 12rpx;
+  font-size: 28rpx;
+  line-height: 92rpx;
+}
+.course-item label{
+  margin-left: 24rpx;
+}
+.course-item text{
+  float: right;
+  margin-right: 20rpx;
+}

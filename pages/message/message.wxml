@@ -1,9 +1,7 @@
-<!--pages/message/message.wxml-->
-<view class='message-title'>我的消息</view>
-
-<view class='message-item'>
-  <h2></h2>
-  <p></p>
+<view class='message-item' wx:for='{{messageList}}' wx:key='{{index}}'>
+  <h3>{{item.title}}</h3>
+  <p>{{item.content}}</p>
+  <label>{{item.date}}</label>
 </view>
 
 <!-- <view wx:for='{{messageList}}'>

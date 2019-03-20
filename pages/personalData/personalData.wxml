@@ -1,2 +1,22 @@
 <!--pages/personalData/personalData.wxml-->
-<text>pages/personalData/personalData.wxml</text>
+<view class='profile'>
+  <image src='{{profile.img}}'></image>
+  <text class='nickName'>{{profile.nickName}}</text>
+</view>
+<view class='data-list'>
+  <view class='data-item'>
+    <image src='../../images/test.png'></image>
+    <label>姓名</label>
+    <text>{{identify.name}}</text>
+  </view>
+  <view class='data-item'>
+    <image src='../../images/test.png'></image>
+    <label>学号</label>
+    <text>{{identify.num}}</text>
+  </view>
+  <view class='data-item'>
+    <image src='../../images/test.png'></image>
+    <label>入学年份</label>
+    <text>{{identify.content}}</text>
+  </view>
+</view>

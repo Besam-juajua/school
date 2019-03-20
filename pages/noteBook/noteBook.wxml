@@ -1,12 +1,18 @@
 <!--pages/noteBook/noteBook.wxml-->
-<view class='note-title'>我的笔记</view>
-<view class='note-list' wx:for='{{noteList}}' wx:key=''>
+<view class='note-list' wx:for='{{noteList}}' wx:key='' wx:if='{{!editing}}'>
   <view class='note-item note-item-odd' wx:if='{{index%2==0}}'>
     <p>{{item}}</p>
-    <button>编辑</button>
+    <button bindtap='toEdit' data-id='{{index}}'>编辑</button>
   </view>
   <view class='note-item note-item-even' wx:else='{{index%2==1}}'>
     <p>{{item}}</p>
-    <button>编辑</button>
+    <button bindtap='toEdit' data-id='{{index}}'>编辑</button>
   </view>
 </view>
+<view style='clear: both'></view>
+<view class='editor' wx:if='{{editing}}'>
+  <image src='../../images/goback.png' bindtap='goBack'></image>
+  <textarea auto-focus='true' value='{{editContent}}' bindinput='getContent'></textarea>
+  <button>保存笔记</button>
+</view>
+

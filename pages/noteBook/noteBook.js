@@ -14,6 +14,21 @@ Page({
       '我就是简单的记录了一下我就是简单的记录了一下我就是简单的记录了一下',
       '我就是简单的记录了一下我就是简单的记录了一下我就是简单的记录了一下',
       '我就是简单的记录了一下我就是简单的记录了一下我就是简单的记录了一下'
-    ]
+    ],
+    editing: false,
+    editContent: '',
+    nowEditor: ''
+  },
+  toEdit(e) {
+    let target = e.target.dataset.id;
+    this.setData({
+      editContent: this.data.noteList[+target],
+      editing: true
+    })
+  },
+  goBack() {
+    this.setData({
+      editing: false
+    })
   }
 })

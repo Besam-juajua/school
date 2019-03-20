@@ -1,2 +1,9 @@
 <!--pages/syllabus/syllabus.wxml-->
-<text>pages/syllabus/syllabus.wxml</text>
+<view class='btn-list' bindtap='toCourseContentPage'>
+  <button class='btn btn-1 left' data-id='1'>周一</button>
+  <button class='btn btn-2 center' data-id='2'>周二</button>
+  <button class='btn btn-3 right' data-id='3'>周三</button>
+  <button class='btn btn-4 left' data-id='4'>周四</button>
+  <button class='btn btn-5 center' data-id='5'>周五</button>
+</view>
+ 

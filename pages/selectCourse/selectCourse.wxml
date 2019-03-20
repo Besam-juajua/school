@@ -1,2 +1,18 @@
 <!--pages/selectCourse/selectCourse.wxml-->
-<text>pages/selectCourse/selectCourse.wxml</text>
+<view class='search-bar'>
+  <image src='../../images/goback.png' bindtap='goBack'></image>
+  <view class='search'>
+    <image src='../../images/search.png'></image>
+    <input placeholder='请输入课程名'></input>
+  </view>
+</view>
+<view class='course-item' wx:for='{{courseList}}'>
+  <image src='{{item.img}}'></image>
+  <view class='course-desc'>
+    <h3>{{item.courseName}}</h3>
+    <label>讲师：{{item.teacher}}</label>
+    <label>学分：{{item.score}}</label>
+    <text>上课时间：{{item.date}}</text>
+  </view>
+  <button>选</button>
+</view>

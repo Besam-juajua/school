@@ -1,1 +1,40 @@
-/* pages/syllabus/syllabus.wxss */
+.btn-list{
+  width: 100%;
+  position: relative;
+}
+.btn{
+  width: 182rpx;
+  height: 160rpx;
+  border: 2rpx solid #BBBBBB;
+  line-height: 156rpx;
+  margin-bottom: 80rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+}
+.left{
+  float: left;
+  margin-left: 18rpx;
+}
+.right{
+  float: right;
+  margin-right: 30rpx;
+}
+.center{
+  float: left;
+  margin-left: 86rpx;
+}
+.btn-1{
+  background: #69E8E8;
+}
+.btn-2{
+  background: #C3B5E6;
+}
+.btn-3{
+  background: #DBADBC;
+}
+.btn-4{
+  background: #EAC692;
+}
+.btn-5{
+  background: #ABECAB;
+}

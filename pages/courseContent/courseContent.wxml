@@ -1,2 +1,9 @@
-<!--pages/courseContent/courseContent.wxml-->
-<text>pages/courseContent/courseContent.wxml</text>
+<view class='course-content-title'>{{time}}</view>
+<view class='course-item' wx:for='{{courseList}}' wx:key=''>
+  <image src='{{item.img}}'></image>
+  <view class='course-desc'>
+    <h3>{{item.date}}</h3>
+    <text>{{item.courseName}}</text>
+    <text>讲师：{{item.teacher}}</text>
+  </view>
+</view>

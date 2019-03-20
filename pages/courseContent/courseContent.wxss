@@ -1,1 +1,45 @@
-/* pages/courseContent/courseContent.wxss */
+.course-content-title{
+  width: 750rpx;
+  height: 80rpx;
+  border: 2rpx solid #BBBBBB;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+.course-item{
+  width: 716rpx;
+  height: 220rpx;
+  margin: 0 14rpx 14rpx 20rpx;
+  border: 2rpx solid #BBBBBB;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  position: relative;
+}
+.course-item image{
+  width: 184rpx;
+  height: 184rpx;
+  margin: 18rpx 16rpx 14rpx 20rpx;
+  border: 2rpx solid #BBBBBB;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  float: left;
+}
+.course-desc{
+  width: 440rpx;
+  height: 100%;
+  float: left;
+  font-size: 28rpx;
+}
+.course-desc h3{
+  display: block;
+  margin-top: 26rpx;
+  margin-bottom: 12rpx;
+  line-height: 40rpx;
+}
+.course-desc text{
+  display: block;
+  margin-top: 24rpx;
+  line-height: 40rpx;
+}

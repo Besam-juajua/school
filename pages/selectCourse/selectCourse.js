@@ -1,66 +1,36 @@
-// pages/selectCourse/selectCourse.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    courseList: [{
+      img: 'https://dummyimage.com/206x206/FF9800',
+      courseName: '计算机科学与导论',
+      teacher: '刘某某',
+      score: '2学分',
+      date: '每周二晚上'
+    }, {
+      img: 'https://dummyimage.com/206x206/FF9800',
+      courseName: '计算机科学与导论',
+      teacher: '刘某某',
+      score: '2学分',
+      date: '每周二晚上'
+    },
+    {
+      img: 'https://dummyimage.com/206x206/FF9800',
+      courseName: '计算机科学与导论',
+      teacher: '刘某某',
+      score: '2学分',
+      date: '每周二晚上'
+    },
+    {
+      img: 'https://dummyimage.com/206x206/FF9800',
+      courseName: '计算机科学与导论',
+      teacher: '刘某某',
+      score: '2学分',
+      date: '每周二晚上'
+    }]
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  goBack() {
+    wx.navigateBack({
+      
+    })
   }
 })

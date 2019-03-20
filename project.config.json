@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 10,
 			"list": [
 				{
 					"id": 0,
@@ -51,6 +51,68 @@
 					"name": "message",
 					"pathName": "pages/message/message",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "personal",
+					"pathName": "pages/personal/personal",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "selectCourse",
+					"pathName": "pages/selectCourse/selectCourse",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "personalData",
+					"pathName": "pages/personalData/personalData",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "identification",
+					"pathName": "pages/identification/identification",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "syllabus",
+					"pathName": "pages/syllabus/syllabus",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "courseContent",
+					"pathName": "pages/courseContent/courseContent",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "score",
+					"pathName": "pages/score/score",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "recommend",
+					"pathName": "pages/bookRecommend/bookRecommend",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "temprate",
+					"pathName": "pages/temprate/temprate",
 					"scene": null
 				}
 			]

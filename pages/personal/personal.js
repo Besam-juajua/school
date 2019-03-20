@@ -1,66 +1,35 @@
-// pages/personal/personal.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    profile: {
+      img: 'https://dummyimage.com/232x232/bbb/bbb',
+      nickName: '这是微信昵称'
+    },
+    identifyList: [{
+      icon1: '../../images/person.png',
+      text: '个人信息'
+    }, {
+      icon1: '../../images/identification.png',
+      text: '学生认证'
+    }, {
+        icon1: '../../images/my_syllabus.png',
+      text: '我的课程'
+    }]
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  to(e) {
+    let goPage = e.target.dataset.index;
+    console.log(goPage)
+    if(goPage == 0) {
+      wx.navigateTo({
+        url: '../personalData/personalData',
+      })
+    } else if(goPage == 1) {
+      wx.navigateTo({
+        url: '../identification/identification',
+      })
+    } else {
+      wx.navigateTo({
+        url: '../syllabus/syllabus',
+      })
+    }
   }
 })

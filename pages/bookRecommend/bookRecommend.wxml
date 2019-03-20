@@ -1,2 +1,8 @@
-<!--pages/bookRecommend/bookRecommend.wxml-->
-<text>pages/bookRecommend/bookRecommend.wxml</text>
+<view class='course-item' wx:for='{{courseList}}'>
+  <image src='{{item.img}}'></image>
+  <view class='course-desc'>
+    <h3>{{item.courseName}}</h3>
+    <label>作者：{{item.author}}</label>
+    <label>出版社：{{item.publish}}</label>
+  </view>
+</view>
