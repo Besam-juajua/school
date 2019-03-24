@@ -2,10 +2,10 @@
   width: 706rpx;
   height: 80rpx;
   margin: 0 20rpx 10rpx 22rpx;
-  /* border: 2rpx solid #BBBBBB; */
   border-radius: 10rpx;
   background: #EBECEC;
 }
+
 .input-item image{
   width: 50rpx;
   height: 48rpx;
@@ -13,11 +13,13 @@
   margin-right: 30rpx;
   float: left;
 }
+
 .input-item input{
   font-size: 28rpx;
   width: 608rpx;
   height: 100%;
 }
+
 .submit{
   width: 530rpx;
   height: 80rpx;

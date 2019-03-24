@@ -1,4 +1,4 @@
-<view class='course-item' wx:for='{{courseList}}'>
+<view class='course-item' wx:for='{{courseList}}' wx:key='item.courseName'>
   <image src='{{item.img}}'></image>
   <view class='course-desc'>
     <h3>{{item.courseName}}</h3>

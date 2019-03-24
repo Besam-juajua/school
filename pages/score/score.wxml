@@ -4,6 +4,8 @@
   <image src='../../images/forward.png'></image>
   <text>{{currentTerm}}</text>
 </view>
+<view class='alert-box' wx:if='{{showBox}}' bindtap='toHideBox' data-type='alertBox'>
+</view>
 <view class='select-list' wx:if='{{showBox}}'>
   <view class='select-item' bindtap='toHideBox'>2014~2015第一学期</view>
   <view class='select-item' bindtap='toHideBox'>2014~2015第二学期</view>
@@ -11,8 +13,12 @@
   <view class='select-item' bindtap='toHideBox'>2015~2016第二学期</view>
   <view class='select-item' bindtap='toHideBox'>2016~2017第一学期</view>
   <view class='select-item' bindtap='toHideBox'>2016~2017第二学期</view>
-  <view class='select-item'>全部</view>
+  <view class='select-item' bindtap='toHideBox'>2017~2018第一学期</view>
+  <view class='select-item' bindtap='toHideBox'>2017~2018第二学期</view>
+  <view class='select-item' bindtap='toHideBox'>全部</view>
 </view>
+
+
 <view class='course-item' wx:for='{{courseList}}' wx:key=''>
   <label>{{item.courseName}}</label>
   <text>{{item.score}}</text>

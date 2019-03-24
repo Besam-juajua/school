@@ -1,3 +1,5 @@
+@import "../userauth/userauth.wxss";
+
 .message-item{
   width: 712rpx;
   height: 180rpx;
@@ -9,6 +11,7 @@
   background: #EBECEC;
   position: relative;
 }
+
 .message-item h3{
   display: block;
   font-size: 32rpx;
@@ -16,12 +19,14 @@
   margin-top: 18rpx;
   line-height: 44rpx;
 }
+
 .message-item p{
   display: block;
   font-size: 24rpx;
   color: #969999;
   margin-top: 6rpx;
 }
+
 .message-item label{
   font-size: 28rpx;
   color: #969999;

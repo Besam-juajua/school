@@ -1,3 +1,5 @@
 {
-  "navigationBarTitleText": "选课"
+  "navigationBarTitleText": "选课",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 0
 }

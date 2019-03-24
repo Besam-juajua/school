@@ -20,6 +20,7 @@
   height: 100%;
   float: left;
   font-size: 28rpx;
+  
 }
 .course-desc h3{
   display: block;
@@ -27,6 +28,9 @@
   margin-top: 28rpx;
   margin-bottom: 48rpx;
   line-height: 44rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .course-desc label{
   display: block;
@@ -34,4 +38,7 @@
   color: #969999;
   line-height: 40rpx;
   margin-bottom: 6rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }

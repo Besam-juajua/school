@@ -8,3 +8,6 @@
   <text>{{item.text}}</text>
   <image src='../../images/forward.png' class='icon2'></image>
 </view>
+
+<import src="../userauth/userauth.wxml" />
+<template is="userauth" wx:if='{{_needLogin}}'></template>

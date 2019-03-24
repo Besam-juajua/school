@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/selectCourse/selectCourse",
     "pages/syllabus/syllabus",
@@ -12,33 +12,38 @@
     "pages/personalData/personalData",
     "pages/identification/identification"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "./images/home.png",
-      "selectedIconPath": "./images/home_select.png"
-    },{
-      "pagePath": "pages/noteBook/noteBook",
-      "text": "笔记",
-      "iconPath": "./images/notebook.png",
-      "selectedIconPath": "./images/notebook_select.png"
-    },{
-      "pagePath": "pages/message/message",
-      "text": "消息",
-      "iconPath": "./images/message.png",
-      "selectedIconPath": "./images/message_select.png"
-    },{
-      "pagePath": "pages/personal/personal",
-      "text": "我的",
-      "iconPath": "./images/me.png",
-      "selectedIconPath": "./images/me_select.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/home.png",
+        "selectedIconPath": "./images/home_select.png"
+      },
+      {
+        "pagePath": "pages/noteBook/noteBook",
+        "text": "笔记",
+        "iconPath": "./images/notebook.png",
+        "selectedIconPath": "./images/notebook_select.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "./images/message.png",
+        "selectedIconPath": "./images/message_select.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "./images/me.png",
+        "selectedIconPath": "./images/me_select.png"
+      }
+    ]
   }
 }

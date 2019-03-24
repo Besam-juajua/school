@@ -1,7 +1,5 @@
-page{
-  width: 100%;
-  height: 100%;
-}
+@import "../userauth/userauth.wxss";
+
 .note-item{
   width: 320rpx;
   height: 400rpx;
@@ -11,10 +9,12 @@ page{
   padding: 20rpx;
   box-sizing: border-box;
 }
+
 .note-item-odd{
   margin: 20rpx 0 0 24rpx;
   float: left;
 }
+
 .note-item-even{
   margin: 20rpx 30rpx 0 0rpx;
   float: right;
@@ -23,6 +23,7 @@ page{
   font-size: 28rpx;
   color: #969999;
 }
+
 .note-item button{
   width: 100rpx;
   height: 40rpx;
@@ -38,6 +39,7 @@ page{
   background: #259B24;
   border: 2rpx solid #BBBBBB;
 }
+
 .editor{
   width: 100%;
   height: 100%;
@@ -48,6 +50,7 @@ page{
   height: 58rpx;
   margin-left: 20rpx;
 }
+
 .editor textarea{
   width: 730rpx;
   height: 800rpx;
@@ -56,6 +59,7 @@ page{
   line-height: 42rpx;
   border: 2rpx solid #BBBBBB;
 }
+
 .editor button{
   width: 530rpx;
   height: 80rpx;

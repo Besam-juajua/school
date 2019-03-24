@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<swiper class='banner' autoplay='true'>
+<swiper class='banner' autoplay='true' circular='true'>
   <swiper-item wx:for='{{swiperList}}' wx:key='item'>
     <image src='{{item}}' class='banner-img'></image>
   </swiper-item>
@@ -22,3 +22,5 @@
     <text>图书推荐</text>
   </view>
 </view>
+<import src="../userauth/userauth.wxml" />
+<template is="userauth" wx:if='{{_needLogin}}'></template>

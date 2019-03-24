@@ -1,3 +1,5 @@
+@import "../userauth/userauth.wxss";
+
 .profile{
   width: 712rpx;
   height: 400rpx;
@@ -8,6 +10,7 @@
   text-align: center;
   padding-top: 40rpx;
 }
+
 .profile image{
   display: block;
   width: 232rpx;
@@ -17,11 +20,13 @@
   border: 2rpx solid #BBBBBB;
   box-sizing: border-box;
 }
+
 .profile text{
   font-size: 28rpx;
   line-height: 20rpx;
   color: #101010;
 }
+
 .identify-item{
   width: 730rpx;
   height: 120rpx;
@@ -30,16 +35,19 @@
   border-radius: 10rpx;
   line-height: 120rpx;
 }
+
 .identify-item .icon1{
   width: 52rpx;
   height: 52rpx;
   float: left;
   margin: 34rpx 28rpx 34rpx 30rpx;
 }
+
 .identify-item text{
   font-size: 28rpx;
   float: left;
 }
+
 .identify-item .icon2{
   width: 54rpx;
   height: 54rpx;

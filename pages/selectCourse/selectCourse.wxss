@@ -32,7 +32,6 @@
 }
 .search input{
   text-align: left;
-  color: #BEC6C5;
   font-size: 28rpx;
   line-height: 60rpx;
 }
@@ -65,13 +64,23 @@
   margin-top: 30rpx;
   margin-bottom: 12rpx;
   line-height: 50rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .course-desc label{
   display: block;
   line-height: 40rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .course-desc text{
+  display: block;
   line-height: 40rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .course-item button{
   position: absolute;
@@ -86,4 +95,5 @@
   box-sizing: border-box;
   background: #259B24;
   color: #FFFFFF;
+  z-index: 1000;
 }

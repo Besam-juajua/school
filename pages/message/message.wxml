@@ -4,6 +4,5 @@
   <label>{{item.date}}</label>
 </view>
 
-<!-- <view wx:for='{{messageList}}'>
-
-</view> -->
+<import src="../userauth/userauth.wxml" />
+<template is="userauth" wx:if='{{_needLogin}}'></template>

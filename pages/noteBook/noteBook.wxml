@@ -16,3 +16,6 @@
   <button>保存笔记</button>
 </view>
 
+<import src="../userauth/userauth.wxml" />
+<template is="userauth" wx:if='{{_needLogin}}'></template>
+

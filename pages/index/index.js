@@ -1,3 +1,5 @@
+const win = require('../../tools/win.js')
+const login = require('../../tools/login.js')
 const app = getApp();
 Page({
   data: {
@@ -6,7 +8,8 @@ Page({
       "https://dummyimage.com/357x189/8BC34A",
       "https://dummyimage.com/357x189/8BC34A",
       "https://dummyimage.com/357x189/8BC34A"
-    ]
+    ],
+    _needLogin: false
   },
   toSelectCoursePage() {
     wx.navigateTo({
@@ -28,6 +31,12 @@ Page({
       url: '../bookRecommend/bookRecommend'
     })
   },
-  onShow(options) {
+  onShow() {
+    if (!app.globalData.userInfo) {
+      login.needLogin(this)
+    }
+    this.setData({
+      _needLogin: !app.globalData.userInfo
+    })
   }
 })
